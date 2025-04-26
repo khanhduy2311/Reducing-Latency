@@ -10,14 +10,14 @@ class Settings(BaseSettings):
     # URL của API QA gốc mà bạn muốn tăng tốc
     # Có thể đặt trong file .env hoặc biến môi trường hệ thống
     # Ví dụ: TARGET_API_URL=http://your-original-qa-api.com/ask
-    TARGET_API_URL: str = "http://localhost:8080/ask" # URL ví dụ, thay bằng API thật của bạn
+    TARGET_API_URL: str = "http://localhost:8080/ask" # URL ví dụ, thay bằng API team
 
     # Cấu hình Cache
     CACHE_MAX_SIZE: int = 1024  # Số lượng item tối đa trong cache
-    CACHE_TTL_SECONDS: int = 300 # Thời gian sống của cache item (vd: 5 phút)
+    CACHE_TTL_SECONDS: int = 300 # Thời gian sống của cache item (vd: 5p) trong cuộc thi là 30p maybe
 
     # Cấu hình Timeout cho request đến API gốc
-    API_TIMEOUT_SECONDS: float = 10.0 # Thời gian chờ tối đa (vd: 10 giây)
+    API_TIMEOUT_SECONDS: float = 5.0 # Thời gian chờ tối đa 
 
     # Cấu hình cách gọi API gốc (linh hoạt)
     # Phương thức HTTP (GET, POST, etc.)
@@ -34,7 +34,7 @@ class Settings(BaseSettings):
 
     # Cấu hình server (cho uvicorn)
     APP_HOST: str = "0.0.0.0"
-    APP_PORT: int = 8000
+    APP_PORT: int = 8000 # Port của local
 
     class Config:
         # Cho phép đọc từ file .env
