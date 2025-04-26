@@ -1,0 +1,20 @@
+[
+  {
+    "question": "Who created Python?",
+    "premises": "Python was created by Guido van Rossum and released in 1991.",
+    "answer": "Guido van Rossum",
+    "score": 0.9991
+  },
+  {
+    "question": "What is the capital of France?",
+    "premises": "Paris is the capital and most populous city of France.",
+    "answer": "Paris",
+    "score": 0.9925
+  },
+  {
+    "question": "What does CPU stand for?",
+    "premises": "The CPU stands for Central Processing Unit, which is the brain of the computer.",
+    "answer": "Central Processing Unit",
+    "score": 0.9866
+  }
+]
