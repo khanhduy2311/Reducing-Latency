@@ -45,3 +45,9 @@ The implementation of these asynchronous API calls has had a significant positiv
 ## Conclusion
 
 Watsonx.ai's initiative to reduce API response latency through asynchronous calls has demonstrated the power of innovative thinking in solving performance challenges. By embracing different approaches and continuously seeking the most effective solutions, we not only improve our systems but also ensure that our users receive the fast, reliable service they deserve.
+
+
+## Step 1
+The folder Reducing-Latency that creating the server to publish API
+## Step 2
+The folder Process to reduce latency. Others file that about GPTCache (not really reduce too much latency).
